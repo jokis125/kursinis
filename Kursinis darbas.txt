@@ -1,3 +1,18 @@
 Skatinamasis mokymas tai masininio mokymosi sritis, kurioje agentas gauna informacija apie aplinka ir ismoksta pasirinkti veiksmus kurie maksimizuoja tikslo funkcija.
 
 Pagrindinis Skatinamojo mokymo pranasumas tai tas, kad palyginus su kitomis masininio mokymo sritimis tai kad agentui nereikia turet jokiu mokymo duomenu pries mokyma, agentas mokosi is patirties, panasiai kaip zmones ar gyvunai
+
+Skatinamasis mokymas paremtas agento ir aplinkos sasaja. Toje sasajoj dalyvauja sios dalys:
+Agentas
+Aplinka
+Veiksmas
+Busena
+Atlygis
+
+Paprastai pasakius, agentas ir aplinka saveikauja vienas su kitu zingsniu sekoje. Kiekviename zingsnyje, agentas gauna aplinkos busenos reprezentacija ir pasirenka veiksma atsizvelgdamas i tai. Vienu zingsniu veliau, priklausomai nuo savo veiksmu sekos, agentas gauna kazkoki tai skaitini atlygi
+ir atsiranda kitoje busenoj
+
+RL algoritmai sakojasi i 2 atskiras sakas - Model-Free ir Model-Based. Model Free algoritmai sakojasi i dar 2 sakas, tai Policy Optimization ir Q-Learning.
+Skirtingai nuo Model-Free RL, model-based RL nera konkreciu metodu klusteriu. Yra daug skirtingu budu naudoti tuos modelius
+
+Unity tai įvairiaplatformis žaidimų kūrimo įrankis, kuriamas bendrovės „Unity Technologies“. Pasinaudojus ML-agents paketu galima apmokyti dirbtinį intelektą pasiremiant giliojo skatinamojo mokymosi principu Unity aplinkoje.
