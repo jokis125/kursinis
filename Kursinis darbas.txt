@@ -1,0 +1,3 @@
+Skatinamasis mokymas tai masininio mokymosi sritis, kurioje agentas gauna informacija apie aplinka ir ismoksta pasirinkti veiksmus kurie maksimizuoja tikslo funkcija.
+
+Pagrindinis Skatinamojo mokymo pranasumas tai tas, kad palyginus su kitomis masininio mokymo sritimis tai kad agentui nereikia turet jokiu mokymo duomenu pries mokyma, agentas mokosi is patirties, panasiai kaip zmones ar gyvunai
