@@ -15,4 +15,18 @@ ir atsiranda kitoje busenoj
 RL algoritmai sakojasi i 2 atskiras sakas - Model-Free ir Model-Based. Model Free algoritmai sakojasi i dar 2 sakas, tai Policy Optimization ir Q-Learning.
 Skirtingai nuo Model-Free RL, model-based RL nera konkreciu metodu klusteriu. Yra daug skirtingu budu naudoti tuos modelius
 
+--------------------------------------------------
+
 Unity tai įvairiaplatformis žaidimų kūrimo įrankis, kuriamas bendrovės „Unity Technologies“. Pasinaudojus ML-agents paketu galima apmokyti dirbtinį intelektą pasiremiant giliojo skatinamojo mokymosi principu Unity aplinkoje.
+
+Vietoj to, kad naudociau jau ismokyti modeli, as pabandziau modeli mokyti pats. Mokymui naudojau siuos Hyperparametrus ir algoritma Proximal Policy Optimization kuris yra numatytas mokymo algoritmas ML-Agents aplinkoje.
+Agenta pavyko istreniruoti taip, kad jo atlygis po truputi konverguoti iki 100 per epizoda, ir tai yra maksimalus atlygis sioje aplinkoje.
+
+--------------------------------------------------------
+
+OpenAI Gym tai priemoniu rinkinys skirtas skatinamojo mokymosi algoritmu kurimui ir tyrimui. Tai yra biblioteka turinti daug aplinku skirtu testavimui kuriuose galima testuoti skatinamojo mokymosi algoritmus.
+OpenAI Gym bando isspresti 2 problemas kurios buvo letina skatinamojo mokymosi tyrima:
+1. Geresniu benchmarku poreikis. mokyme su mokytoju procese pazanga leme dideli duomenu rinkiniai. Skatinamojo mokymosi to atitikmuo butu didelis ir ivairus aplinku rinkinys. Taciau esamos Skatinamojo mokymosi atviro kodo aplinkos neturi pakankamai ivairoves ir jas daznai buna sunku pradet naudot.
+2. Aplinkos standartizavimo publikacijose trukumas. Mazi skirtumai problemos apibrezime gali drastiskai pakeisti uzduoties sudetinguma. Del to buna sunku atkartoti tyrimo rezultatus ir palyginti juos su kitais tyrimais
+
+OpenAI Gym aplinkos pavyzdyje CartPole bandziau istreniruoti agenta naudojant DQN algoritma su siais hyperparametrais. Siame grafe galime matyti kaip pavyko ji istreniruot ir koki atlygi jis gavo per kiekviena epizoda.
